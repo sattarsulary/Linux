@@ -1,0 +1,45 @@
+#OS store data on disk drives using a structure called a filesystem, consisting of files, directories, and the information needed to access and locate them.
+
+_____Many Different Types_____
+
+ext3
+ext4
+xfs
+NTFS
+fat
+
+_____File System Descriptions_____
+.
+.
+
+/boot -contains file that is used by the boot loader (grub.cfg)
+
+/root - root users home directory
+
+/dev -System devices (disk, cdrom, speakers, flashdrive, keyboard or other peripheral devices)
+
+/etc -Configuration files
+
+
+/bin --> /usr/bin -Everyday user commands
+
+/sbin --> /usr/sbin -System/filesystem commands
+
+/opt - Optional Addon Application (Not part of OS apps)
+
+/proc -Running Processes (Only exist in memory, when the machine is off there will be nothing in this directory)
+
+/lib --> usr/lib -C programming library files needed by commands and apps.
+
+
+/tmp - directory for temporary files
+
+/home - directory for regular users
+
+/var -is used for system logs
+
+/run -System demons that start very early (systemd and udev) to store temporary runtime files like PID files.
+
+/mnt -to mount external filesystem (e.g. NTFS)
+
+/media - For cdrom mounts.
