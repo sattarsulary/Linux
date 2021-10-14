@@ -1,0 +1,39 @@
+-------------------------IP Details-------------------------
+RHEL 5 or 6 ==> ifconfig
+
+RHEL 7		==> ip
+
+RHEL 7.5 >=	==> ifconfig
+-------------------------To Use ifconfig 7.5 -------------------------
+yum install net-tools
+
+-------------------------Bring IP to interface-------------------------
+
+ifup interfaceName
+
+Note: You will get to see your interface name by typing "ifconfig"
+ 
+ -------------------------Mac Users-------------------------
+ 
+ You dont need to download putty to for doing SSH
+ Just simply go to your terminal and type
+
+# ssh -l userName IpAddressOfYourTargetMachine
+
+-------------------------Windows Users-------------------------
+ 
+Go to putty
+-SSH
+-Type the IP
+open it, it will give you to type your name and password 
+
+
+
+------Facts to Know-----
+
+#Root is the super adminsitrator'
+
+#Root is the most powerfull account, that can create modify or delete any accounts and make changes to system configuration files.
+
+#Linux is case sensitive
+
